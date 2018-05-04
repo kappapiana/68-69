@@ -6,8 +6,8 @@ funzionali e non funzionali, indispensabili e non indispensabili").
 
 La fase 3, invece:
 
-a. tiene conto di tutti i requisiti per per la realizzazione ex-novo (vedi p. 19: "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di una soluzione proprietaria confacente ai propri bisogni, elabora un documento contenente un progetto di fattibilità contenente la stima delle attività, dei costi e dei tempi da sostenere per la realizzazione di una soluzione ex-novo che *soddisfi completamente le esigenze* indicate nel documento sull’analisi dei fabbisogni così come descritto nella “Fase 1.1: Analisi del fabbisogno”."), e
-b. non tiene conto di tutti i requisiti per il sw proprietario (vedi p. 19:
+1. tiene conto di tutti i requisiti per per la realizzazione ex-novo (vedi p. 19: "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di una soluzione proprietaria confacente ai propri bisogni, elabora un documento contenente un progetto di fattibilità contenente la stima delle attività, dei costi e dei tempi da sostenere per la realizzazione di una soluzione ex-novo che *soddisfi completamente le esigenze* indicate nel documento sull’analisi dei fabbisogni così come descritto nella “Fase 1.1: Analisi del fabbisogno”."), e
+2. non tiene conto di tutti i requisiti per il sw proprietario (vedi p. 19:
 
 > "assicurare la soddisfazione dei requisiti funzionali e non determinati
 nella Macro fase 1, garantendo il *soddisfacimento di quelli
@@ -31,8 +31,8 @@ Penso vada posta più attenzione al tema della compliance per chi riusa.
 
 Soprattutto se:
 
-   A) chi riusa distribuisce il sw, o
-   B) il sw che si riusa (o le dipendenze di questo) sono disponibili
+   1. chi riusa distribuisce il sw, o
+   2. il sw che si riusa (o le dipendenze di questo) sono disponibili
    secondoi termini di licenze network copyleft.
 
 Ma il problema della compliance va gestito anche se non ci sono licenze
