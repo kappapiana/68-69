@@ -45,12 +45,13 @@ Soprattutto se:
 Ma il problema della compliance va gestito anche se non ci sono licenze
 copyleft: mantenere le copyright notices, accompagnare il codice con il
 testo delle licenze quando è richiesto, ecc..
+
 Chi riusa si deve porre il problema della compliance e le linee guida
 dovrebbero dirlo.
 
 Penso sia anche utile indirizzare gli enti a risorse di supporto nella
 realizzazione della valutazione e delle azioni da intraprendere (tools,
-specifiche come Openchain, ecc.).
+specifiche come [Openchain](https://openchainproject.org), ecc.).  
 
 Forse potrebbe essere utile prevedere una sorta di "certificazione": se
 una PA svolge l'analisi, potrebbe documentare gli esiti della stessa
