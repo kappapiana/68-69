@@ -6,15 +6,8 @@ funzionali e non funzionali, indispensabili e non indispensabili").
 
 La fase 3, invece:
 
-A) tiene conto di tutti i requisiti per per la realizzazione
-ex-novo (vedi p. 19: "La Pubblica amministrazione, dopo aver individuato
-l’esistenza o meno di una soluzione proprietaria confacente ai propri bisogni,
-elabora un documento contenente un progetto di fattibilità contenente la stima
-delle attività, dei costi e dei tempi da sostenere per la realizzazione di una
-soluzione ex-novo che *soddisfi completamente le esigenze* indicate nel
-documento sull’analisi dei fabbisogni così come descritto nella “Fase 1.1:
-Analisi del fabbisogno”."), e
-B) non tiene conto di tutti i requisiti per il sw proprietario (vedi p. 19:
+a. tiene conto di tutti i requisiti per per la realizzazione ex-novo (vedi p. 19: "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di una soluzione proprietaria confacente ai propri bisogni, elabora un documento contenente un progetto di fattibilità contenente la stima delle attività, dei costi e dei tempi da sostenere per la realizzazione di una soluzione ex-novo che *soddisfi completamente le esigenze* indicate nel documento sull’analisi dei fabbisogni così come descritto nella “Fase 1.1: Analisi del fabbisogno”."), e
+b. non tiene conto di tutti i requisiti per il sw proprietario (vedi p. 19:
 
 > "assicurare la soddisfazione dei requisiti funzionali e non determinati
 nella Macro fase 1, garantendo il *soddisfacimento di quelli
