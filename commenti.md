@@ -2,10 +2,10 @@
 
 ### Relazione tra le subfasi della fase 2
 
-L'art. 68 comma 1-ter CAD in realtà non opera distinzioni tra la 
-categorie del software in riuso e il software libero e le pone allo stesso ordine di preferenza. 
-Nemmeno un criterio semantico porta a considerare una soluzione privilegiata rispetto all'altra: 
-il termine "adeguati" utilizzato nel comma 1 si riferisce a 
+L'art. 68 comma 1-ter CAD in realtà non opera distinzioni tra le
+categorie del software in riuso e il software libero e le pone allo stesso ordine di preferenza.
+Nemmeno un criterio semantico porta a considerare una soluzione privilegiata rispetto all'altra:
+il termine "adeguati" utilizzato nel comma 1 si riferisce a
 tutti i casi trattati nel comma stesso.
 
 Ove vi siano soluzioni _sia_ di software libero _sia_ di software in
@@ -14,7 +14,7 @@ categorie, senza fermarsi a quella in riuso, se quella in software libero fosse
 più adatta e complessivamente migliore. Ad esempio, quella in software libero potrebbe avere una
 comunità più viva, oppure essere basata su un middleware o un'infrastruttura
 uguale a quella già adottata dalla PA, eccetera. Privarsi di questa possibilità
-in assenza di una norma che lo preveda espressamente è illegittimo in quanto contraddice 
+in assenza di una norma che lo preveda espressamente è illegittimo in quanto contraddice
 i principi di economicità e di efficienza previsti al comma 1.
 
 Si suggerisce che il fatto di individuare una soluzione in riuso potenzialmente
@@ -44,7 +44,7 @@ La fase 3, invece:
   fabbisogno”."
   2. non tiene conto di tutti i requisiti per il software proprietario; infatti a p. 19 si legge
   > "assicurare la soddisfazione dei requisiti funzionali e non determinati
-  nella Macro fase 1, garantendo il **soddisfacimento di quelli indispensabili**, 
+  nella Macro fase 1, garantendo il **soddisfacimento di quelli indispensabili**,
   con quelli indicati nella documentazione".
 
 Apparentemente, questo algoritmo può essere aggirato facilmente: è sufficiente prevedere
@@ -54,7 +54,7 @@ saltando la 2 e quindi preferire software proprietario (che non deve soddisfare
 tutti i requisiti). C'è qualcosa da correggere. Per esempio, si può prevedere
 che se non esiste una soluzione proprietaria con tutti i requisiti previsti
 nella fase 1, si riapre la fase 2 valutando solo i requisiti indispensabili per
-software in riuso e software libero. Oppure si chiarisce che la valutazione _make_ della fase 3 
+software in riuso e software libero. Oppure si chiarisce che la valutazione _make_ della fase 3
 è limitata ai soli requisiti soddisfatti dalla migliore soluzione proprietaria e riguarda
 anche il caso in cui si personalizza del software in riuso o software libero.
 
@@ -64,25 +64,25 @@ Si ritiene che vada posta più attenzione al tema della valutazione di conformit
 
 Qualsiasi attività di realizzazione di software soggetto a riuso determina
 obbligatoriamente una distribuzione. Pertanto, quando si commissiona software
-sviluppato _ad hoc_ che comporti l'utilizzo di 
+sviluppato _ad hoc_ che comporti l'utilizzo di
 componenti di terze parti, occorre che il software "_inbound_" abbia condizioni
-di licenza o di titolarità compatibili con la licenza del software in uscita. 
-Si suggerisce di prevedere che i contratti di appalto tengano conto di quanto sopra, 
-obbligando il fornitore a svolgere la valutazione di conformità ed a documentarne gli esiti 
+di licenza o di titolarità compatibili con la licenza del software in uscita.
+Si suggerisce pertanto di prevedere che i contratti di appalto tengano conto di quanto sopra,
+obbligando il fornitore a svolgere la valutazione di conformità ed a documentarne gli esiti
 alla PA appaltante.
 
 Anche chi riusa il software deve svolgere una valutazione di conformità, soprattutto se:
 
    1. chi riusa distribuisce il software, o
-   2. il software che si riusa (o le dipendenze di questo) sono disponibili
+   2. il software che si riusa o le dipendenze di questo sono disponibili
    secondo i termini di licenze network copyleft.
 
 Ma il problema della valutazione di conformità legale va gestito anche se non ci sono licenze
 copyleft. È necessario mantenere le copyright notices, accompagnare il codice con il
-testo delle licenze quando è richiesto, ecc.. 
+testo delle licenze quando è richiesto, ecc..
 
-Chi realizza software che viene rilasciato in riuso e chi riusa si deve porre il problema 
-della valutazione di confomità legale e le Linee Guida
+Chi realizza software che viene rilasciato in riuso e chi riusa si deve porre il problema
+della valutazione di conformità legale e le Linee Guida
 dovrebbero dirlo chiaramente.
 
 Si ritiene anche utile indirizzare gli enti a risorse di supporto nella
