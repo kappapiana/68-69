@@ -1,40 +1,5 @@
 ## Algoritmo di scelta
 
-### Relazione tra la fase 2 e la fase 3
-
-La fase 2 tiene conto di tutti i requisiti; a p. 16 delle Linee Guida si legge che
-  > "eventuali costi di
-personalizzazione, necessari ad assicurare la copertura di **tutti** i requisiti
-funzionali e non funzionali, indispensabili e non indispensabili").
-
-La fase 3, invece:
-
-  1. tiene conto di tutti i requisiti per la realizzazione ex-novo; infatti a p.
-  19 si legge
-  > "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di
-  una soluzione proprietaria confacente ai propri bisogni, elabora un documento
-  contenente un progetto di fattibilità contenente la stima delle attività, dei
-  costi e dei tempi da sostenere per la realizzazione di una soluzione ex-novo
-  che **soddisfi completamente le esigenze** indicate nel documento sull’analisi
-  dei fabbisogni così come descritto nella “Fase 1.1: Analisi del
-  fabbisogno”."
-  2. non tiene conto di tutti i requisiti per il software proprietario; infatti a p. 19 si legge
-  > "assicurare la soddisfazione dei requisiti funzionali e non determinati
-  nella Macro fase 1, garantendo il **soddisfacimento di quelli
-  indispensabili**, con quelli indicati nella documentazione".
-
-Apparentemente, questo algoritmo può essere aggirato facilmente: è sufficiente prevedere
-nella fase 1 dei requisiti non indispensabili che non sono disponibili in
-nessuna soluzione in riuso e software libero per passare serenamente alla fase 3
-saltando la 2 e quindi preferire software proprietario (che non deve soddisfare
-tutti i requisiti). C'è qualcosa da correggere. Per esempio, si può prevedere
-che se non esiste una soluzione proprietaria con tutti i requisiti previsti
-nella fase 1, si riapre la fase 2 valutando solo i requisiti indispensabili per
-software in riuso e software libero. Oppure si chiarisce che la valutazione _make_ riguarda
-anche il caso in cui si personalizza del software in riuso o software libero e, in questa
-fase, la valutazione è limitata ai requisiti soddisfatti dalla migliore
-soluzione proprietaria.
-
 ### Relazione tra le subfasi della fase 2
 
 L'art. 68 comma 1-ter CAD in realtà non opera distinzioni tra la 
@@ -58,6 +23,40 @@ esito il passaggio alla valutazione successiva, dovendosi ricercare se non vi
 siano soluzioni in software libero utilizzabili anche non appartenenti al dominio del
 riuso, per poi operare una valutazione comparata se più soluzioni passino l'uno
 o l'altro filtro.
+
+### Relazione tra la fase 2 e la fase 3
+
+La fase 2 tiene conto di tutti i requisiti; a p. 16 delle Linee Guida si legge che
+  > "eventuali costi di
+personalizzazione, necessari ad assicurare la copertura di **tutti** i requisiti
+funzionali e non funzionali, indispensabili e non indispensabili").
+
+La fase 3, invece:
+
+  1. tiene conto di tutti i requisiti per la realizzazione ex-novo; infatti a p.
+  19 si legge
+  > "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di
+  una soluzione proprietaria confacente ai propri bisogni, elabora un documento
+  contenente un progetto di fattibilità contenente la stima delle attività, dei
+  costi e dei tempi da sostenere per la realizzazione di una soluzione ex-novo
+  che **soddisfi completamente le esigenze** indicate nel documento sull’analisi
+  dei fabbisogni così come descritto nella “Fase 1.1: Analisi del
+  fabbisogno”."
+  2. non tiene conto di tutti i requisiti per il software proprietario; infatti a p. 19 si legge
+  > "assicurare la soddisfazione dei requisiti funzionali e non determinati
+  nella Macro fase 1, garantendo il **soddisfacimento di quelli indispensabili**, 
+  con quelli indicati nella documentazione".
+
+Apparentemente, questo algoritmo può essere aggirato facilmente: è sufficiente prevedere
+nella fase 1 dei requisiti non indispensabili che non sono disponibili in
+nessuna soluzione in riuso e software libero per passare serenamente alla fase 3
+saltando la 2 e quindi preferire software proprietario (che non deve soddisfare
+tutti i requisiti). C'è qualcosa da correggere. Per esempio, si può prevedere
+che se non esiste una soluzione proprietaria con tutti i requisiti previsti
+nella fase 1, si riapre la fase 2 valutando solo i requisiti indispensabili per
+software in riuso e software libero. Oppure si chiarisce che la valutazione _make_ della fase 3 
+è limitata ai soli requisiti soddisfatti dalla migliore soluzione proprietaria e riguarda
+anche il caso in cui si personalizza del software in riuso o software libero.
 
 ## Responsabilità
 
