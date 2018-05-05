@@ -6,45 +6,45 @@ funzionali e non funzionali, indispensabili e non indispensabili").
 
 La fase 3, invece:
 
-  1. tiene conto di tutti i requisiti per per la realizzazione ex-novo (vedi p.
-  19: "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di
+  1. tiene conto di tutti i requisiti per la realizzazione ex-novo (vedi p.
+  19: 
+  > "La Pubblica amministrazione, dopo aver individuato l’esistenza o meno di
   una soluzione proprietaria confacente ai propri bisogni, elabora un documento
   contenente un progetto di fattibilità contenente la stima delle attività, dei
   costi e dei tempi da sostenere per la realizzazione di una soluzione ex-novo
   che *soddisfi completamente le esigenze* indicate nel documento sull’analisi
   dei fabbisogni così come descritto nella “Fase 1.1: Analisi del
   fabbisogno”."), e
-  2. non tiene conto di tutti i requisiti per il sw proprietario (vedi p. 19:
-
-> "assicurare la soddisfazione dei requisiti funzionali e non determinati
-nella Macro fase 1, garantendo il *soddisfacimento di quelli
-indispensabili*, con quelli indicati nella documentazione").
+  2. non tiene conto di tutti i requisiti per il software proprietario (vedi p. 19:
+  > "assicurare la soddisfazione dei requisiti funzionali e non determinati
+  nella Macro fase 1, garantendo il *soddisfacimento di quelli
+  indispensabili*, con quelli indicati nella documentazione").
 
 Apparentemente, questo algoritmo può essere aggirato facilmente: è sufficiente prevedere
 nella fase 1 dei requisiti non indispensabili che non sono disponibili in
-nessuna soluzione in riuso e sw libero per passare serenamente alla fase 3
-saltando la 2 e quindi preferire sw proprietario (che non deve soddisfare
+nessuna soluzione in riuso e software libero per passare serenamente alla fase 3
+saltando la 2 e quindi preferire software proprietario (che non deve soddisfare
 tutti i requisiti). C'è qualcosa da correggere. Per esempio, si può prevedere
 che se non esiste una soluzione proprietaria con tutti i requisiti previsti
 nella fase 1, si riapre la fase 2 valutando solo i requisiti indispensabili per
-sw in riuso e sw libero. Oppure si chiarisce che la valutazione make riguarda
-anche il caso in cui si personalizza del sw in riuso o sw libero e, in questa
+software in riuso e software libero. Oppure si chiarisce che la valutazione make riguarda
+anche il caso in cui si personalizza del software in riuso o software libero e, in questa
 fase, la valutazione si può limitare ai requisiti soddisfatti dalla migliore
 soluzione proprietaria.
 
 ### Manca una subfase: marginale integrazione del software
 
 Nell'ottica del commento precedente, non pare corretto arrestare la valutazione
-dei requisiti mancanti di un progetto in riuso o di sw libero senza tener conto
+dei requisiti mancanti di un progetto in riuso o di software libero senza tener conto
 della possibilità di **integrare** il requisito mancante con una minima o
 comunque non dispendiosa modifica, eventualmente da mandare "_upstream_" una
 volta implementata.
 
 A differenza di quanto avviene nel mondo proprietario, infatti, le soluzioni di
-sw libero e in riuso non sono necessariamente da prendere a scatola chiusa, ma
+software libero e in riuso non sono necessariamente da prendere a scatola chiusa, ma
 concedono il diritto a chiunque di modificare il codice per adattarlo. Se quanto
 manca è ad esempio un connettore con una banca dati, ma l'infrastruttura
-consente di crearle, questa è una modifica banale e rigettare un progetto sw
+consente di crearle, questa è una modifica banale e rigettare un progetto software
 libero solo perché non ha quella funzionalità non fa un servizio alla
 collettività.
 
@@ -52,14 +52,14 @@ D'altronde molte acquisizione di software anche proprietario includono una fase
 di **manutenzione evolutiva** per ad esempio adattare il software alle esigenze
 di mutate normative. Dunque molte acquisizioni di software in realtà hanno
 incorporato anche una non preponderante fase di sviluppo. È nostro parere che
-una soluzione in riuso o di sw libero in questo caso rimanga nella rispettiva
+una soluzione in riuso o di software libero in questo caso rimanga nella rispettiva
 categoria anche se include una limitata fase di adattamento. Dunque la
 valutazione non deve essere fatta in modo "binario", ma adottando una logica di
 prossimità/lontananza dalla soluzione auspicata. D'altronde, aggiungendo una
 parte "_make_" il software rimane sempre software in riuso/soggetto a
-riuso/software libero, qualsiasi combinazione di elementi si prenda.
+riuso/software libero, qualsiasi combinazione di elementi si consideri.
 
-### Gerarchia tra subfasi di valutazione sw libero e sw in riuso risulta arbitraria
+### Gerarchia tra subfasi di valutazione software libero e software in riuso risulta arbitraria
 
 L'art. 68 comma 1-ter CAD in realtà non opera distinzioni tra queste due
 categorie e le pone allo stesso ordine di preferenza. Nemmeno un criterio
@@ -74,7 +74,7 @@ una volta che vi siano soluzioni _sia_ di software libero _sia_ di software in
 riuso, non si debba procedere a una valutazione comparativa rispetto a queste
 categorie, senza fermarsi a quella in riuso, se quella in software libero fosse
 più adatta e complessivamente migliore, al di là della titolarità in capo a una
-pubblica amministrazione. Ad esempio, quella in sw libero potrebbe avere una
+pubblica amministrazione. Ad esempio, quella in software libero potrebbe avere una
 comunità più viva, oppure essere basata su un middleware o un'infrastruttura
 uguale a quella già adottata dalla PA, eccetera. Privarsi di questa possibilità
 in assenza di una norma che lo preveda espressamente pare non essere in linea
@@ -83,7 +83,7 @@ con i dettami normativi.
 Si suggerisce che il fatto di trovare una soluzione in riuso potenzialmente
 adeguata non sia un punto di uscita dall'albero decisorio, ma dia comunque come
 esito il passaggio alla valutazione successiva, dovendosi ricercare se non vi
-siano soluzioni di sw libero utilizzabili anche non appartenenti al dominio del
+siano soluzioni in software libero utilizzabili anche non appartenenti al dominio del
 riuso, per poi operare una valutazione comparata se più soluzioni passino l'uno
 o l'altro filtro.
 
@@ -93,8 +93,8 @@ Si ritiene che vada posta più attenzione al tema della compliance per chi riusa
 
 Soprattutto se:
 
-   1. chi riusa distribuisce il sw, o
-   2. il sw che si riusa (o le dipendenze di questo) sono disponibili
+   1. chi riusa distribuisce il software, o
+   2. il software che si riusa (o le dipendenze di questo) sono disponibili
    secondo i termini di licenze network copyleft.
 
 Ma il problema della compliance va gestito anche se non ci sono licenze
@@ -109,7 +109,7 @@ di licenza o di titolarità compatibili con la licenza del software in uscita.
 Chi riusa e chi realizza software in riuso si dovranno porre il problema della compliance e le linee guida
 dovrebbero dirlo chiaramente.
 
-Penso sia anche utile indirizzare gli enti a risorse di supporto nella
+Si ritiene anche utile indirizzare gli enti a risorse di supporto nella
 realizzazione della valutazione e delle azioni da intraprendere (tools,
 specifiche come [Openchain](https://openchainproject.org), ecc.).  
 
@@ -126,4 +126,4 @@ Ci rendiamo conto che non è un risultato che può discendere dagli artt. 68
 e 69 (questo è un problema delle norme, non delle linee guida) ma, anche
 senza intervenire sulle norme, si potrebbero costruire policy, incentivi
 e pratiche che favoriscono la collaborazione tra le PA per sviluppare e
-distribuire sw libero utile a molte PA.
+distribuire software libero utile a molte PA.

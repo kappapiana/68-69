@@ -2,4 +2,4 @@
 
 Commenti alle linee guida
 
-Questi commenti dovrebbero essere presentati da Assoli, FSFE, NEXA (forse) entro il 05/05/2018
+Questi commenti dovrebbero essere presentati da Assoli e FSFE entro il 05/05/2018
